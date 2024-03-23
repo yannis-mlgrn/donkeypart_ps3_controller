@@ -37,7 +37,7 @@ It's been much more stable, and convenient, to setup Bluetooth for a wireless, r
 
      V.add(ctr,
           inputs=['cam/image_array'],
-          outputs=['user/angle', 'user/throttle', 'user/mode', 'recording'],
+          outputs=['user/steering', 'user/throttle', 'user/mode', 'recording'],
           threaded=True)
     ```
 
